@@ -137,7 +137,7 @@ Patent pending.
 
 Project by Davide Gomba, with the hardware and experience support of Peter Pan.   
 Thanks to my son Djibril for the advices. 
-Thanks Erica Pan and Seeedstudio for the constant support.
+Thanks Eric Pan and Seeedstudio for the constant support.
 
 Built for the Meshtastic Build-Off 2026.
 
