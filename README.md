@@ -1,13 +1,13 @@
 # lutofan
 First Generation and prototype of the Lutòpian Fan aka Ventaglio Lutòpico aka 电子扇子 (diànzǐ shànzi)
 
+![hypothetical logo vers 1](./img/logo01.png)
+
 ## Abstract (long)
 
-The project is the result of a journey that began a few years ago when I started installing solar-powered routers at [transformational festivals](https://www.lutopia.art/the-ozorian-experiment/). This subsequently led me to speak about the need for more decentralized and democratic communication at various events (including the [Fusion Festival](https://www.seeedstudio.com/blog/2025/07/21/cyberpunk-communication-protocols-at-fusion-festival-a-report/?), Ozora, and [FOSDEM](https://fosdem.org/2026/schedule/event/KUZUWX-off-grid_communication_cyberpunk_and_autonomy/)). 
+The project is the result of a journey that began a few years ago when I started installing solar-powered Meshtastic nodes at [transformational festivals](https://www.lutopia.art/the-ozorian-experiment/). This subsequently led me to speak about the need for more decentralized and democratic communication at various events (including the [Fusion Festival](https://www.seeedstudio.com/blog/2025/07/21/cyberpunk-communication-protocols-at-fusion-festival-a-report/?), Ozora, and [FOSDEM](https://fosdem.org/2026/schedule/event/KUZUWX-off-grid_communication_cyberpunk_and_autonomy/)). 
 
 But the idea (the epiphany) for the Lutòpian Fan struck me suddenly at the end of July last year, and it grew within me as I added (or often subtracted) ideas, uses, modularity, and symbolism. 
-
-
 
 ## Project Overview
 
@@ -19,21 +19,27 @@ The prototype is built around the idea of combining a familiar physical object w
 
 This repository is intended to document the concept, design direction, prototype evolution, and visual material of the project.
 
+![A simplified version of the fan](./img/img-02.png)
+
 ## Concept
 
 The fan is designed as a modular platform rather than a single-purpose device.
 
-At a high level, the system may include:
+At a high level, the system includes:
 
-* a compact embedded controller
-* long-range mesh communication through Meshtastic-compatible hardware
-* local user interaction
-* a low-power visual interface
-* visual feedback through integrated lighting
-* optional sensing and expansion features
-* a physical structure designed around modularity and portability
 
-The goal is to create a device that can act as both a functional object and a communication tool, while keeping the design open to future modules and use cases.
+<ol type="a">
+  <li>a compact embedded controller (Seeed XIAO nRF52840 Sense Plus)</li>
+  <li>long-range mesh communication through Meshtastic-compatible hardware Wio-SX1262 (LoRa)</li>
+  <li>local user interaction (joystick) </li>
+  <li>a low-power visual interface and mic </li>
+  <li>visual feedback through integrated lighting </li>
+  <li>optional sensing and expansion features </li>
+  <li>a physical structure designed around modularity and portability </li>
+
+</ol>
+
+The goal is to create a device that can act as both a functional object and a communication tool, while keeping the design open to future modules (**also from third parties**) and use cases
 
 ## Meshtastic Compatibility
 
@@ -51,6 +57,7 @@ The design explores the intersection of:
 * physical interaction
 * modular hardware
 * speculative everyday objects
+* audio journaling tool
 * outdoor and festival-oriented tools
 * emergency and off-grid communication scenarios
 
@@ -61,11 +68,12 @@ The fan format was chosen because it is simple, recognizable, portable, and cult
 The current prototype aims to demonstrate:
 
 * a portable Meshtastic-compatible device
+* a physical compass to point at friends
 * a modular physical structure
-* an integrated interaction system
 * a compact and expressive user interface
+* a lightpainting tool
 * a visually recognizable product concept
-* a platform that can be expanded through future modules
+* a platform that can be expanded through future modules, aslo called generations (to be explanded)
 
 The project is currently in development and may evolve through different mechanical, electronic, and interface iterations.
 
@@ -73,6 +81,7 @@ The project is currently in development and may evolve through different mechani
 
 Potential use cases include:
 
+* creating airflow \o/
 * everyday carry mesh communication
 * festival and outdoor communication
 * off-grid community tools
@@ -87,49 +96,15 @@ This repository may include:
 
 * project overview and documentation
 * concept images
-* prototype photos
-* visual references
+* prototype photos (to be addedd soon)
+* visual references (explanding)
 * non-confidential design notes
 * high-level architecture notes
 * build progress updates
-* demo material
+* demo material (to be addedd as soon as we have the prototypes)
 * links to related resources
 
 Detailed production files, internal mechanical solutions, manufacturing-ready design files, and protected design information may be omitted or shared only in limited form.
-
-## Images
-
-### Concept Image
-
-![](./img/img1.png)
-
-## Visual References
-
-### Controller Reference
-
-![](./img/xiao-pin.png)
-
-### Radio Module Reference
-
-![](./img/SX1262.png)
-
-## Prototype References
-
-### Early Schematic Snapshot
-
-![](./img/old-schematics.png)
-
-### Mechanical Study: Father Element
-
-![](./img/father.png)
-
-### Mechanical Study: Mother Element
-
-![](./img/mother.png)
-
-### Early Modular Concept
-
-![](./img/son.png)
 
 ## Development Status
 
@@ -160,7 +135,8 @@ Patent pending.
 
 ## Credits
 
-Project by Davide Gomba.
+Project by Davide Gomba, with the hardware and experience support of Peter Pan.   
+Thanks to my son Djibril for the advices. 
 
 Built for the Meshtastic Build-Off 2026.
 
